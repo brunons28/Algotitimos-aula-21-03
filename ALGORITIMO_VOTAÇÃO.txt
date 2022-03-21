@@ -1,0 +1,12 @@
+		ALGORITIMO DE VOTAÇÃO
+
+-Receber a idade
+-verificar a idade
+-verificar se a idade for menor de 16 anos
+-senão for maior de 16 anos, Exibir msg: o voto não é permitido
+-se a idade for 16 e 17 anos
+-Exibir msg: o voto é opcional
+-se a idade é 18 anos ou maior
+-Exibir msg: o voto é obrigatório
+-se a idade for de 70 anos ou maior
+-Exibir msg: o voto é opcional

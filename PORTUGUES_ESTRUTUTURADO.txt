@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real idade		
+
+		escreva("Digite a sua Idade: ")
+		leia(idade)
+		
+
+		se(idade < 16){
+			escreva("O voto não é permitido!")
+		}
+		senao{
+			se(idade >= 16 e idade <= 17){
+				escreva("O seu voto é opcional!")
+			}
+			senao{
+				se(idade >= 18 e idade <= 70){
+					escreva("O seu voto é obrigatório!")
+				}	
+				senao{
+					se(idade >= 70){
+							escreva("O seu voto é opcional!")	
+					}
+				}
+			}
+		}
+			
+		
+	}
+}
